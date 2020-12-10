@@ -6,7 +6,18 @@ export default class App {
         }
         return resultado;
     }
-  
+    convertirAString(numero){
+        let i=1;
+        let resultado="";
+        while(i<=numero){
+            resultado+="*";
+           i++; 
+           
+        }
+        return resultado;
+    }
+
+
 
 
 
