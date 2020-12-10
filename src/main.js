@@ -29,6 +29,18 @@ export default class App {
         return contador;
     }
 
+    elevar(numero, potencia){
+            let resultado=1;
+        for(let i=1;i<=potencia;i++){
+         
+            resultado*=numero;
+          
+            
+            
+        }
+        return resultado;
+
+    }
 
 
 
@@ -40,3 +52,4 @@ let app = new App();
 console.log(app.factorial(5))
 console.log(app.convertirAString(5));
 console.log(app.obtenerDivisibles(6));
+console.log(app.elevar(3,2));
